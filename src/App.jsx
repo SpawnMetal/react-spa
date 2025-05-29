@@ -1,4 +1,6 @@
 import './App.css';
+import { TodoAdd } from './TodoAdd';
+import { TodoList } from './TodoList';
 
 function App() {
   return (
@@ -18,8 +20,14 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React!
+            Learn React
           </a>
+        </p>
+        <p>
+          <TodoAdd />
+        </p>
+        <p>
+          <TodoList />
         </p>
       </header>
     </div>
